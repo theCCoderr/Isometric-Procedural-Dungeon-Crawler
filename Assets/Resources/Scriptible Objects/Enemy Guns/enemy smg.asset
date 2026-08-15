@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a69a2367042a346a37fe1c9033ff67, type: 3}
+  m_Name: enemy smg
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: bb9d645dea15db34d856b51be02ebece, type: 3}
+  obtainedByPlayer: 0
+  startingWeapon: 0
+  damage: 1
+  bulletSpeed: 4
+  shootingDelay: 0.2
+  shootingDelayUnHeld: 0
+  bulletNum: 1
+  reload: 1
+  reloadBulletNum: 4
+  reloadWaitTime: 2
+  burst: 1
+  burstNum: 4
+  bulletSpreadFactor: 0
+  bulletSpreadAngle: 0
+  shakeIntensity: 0
+  randomShakeIntensity: 0
+  handlePosition: {x: 0, y: 0}
+  firingPosition: {x: 0, y: 0}
+  bulletSprite: {fileID: 21300000, guid: 4c801374eaf08a045802a930345ba457, type: 3}
+  spriteScale: 0.75
+  fadeOutTime: 3

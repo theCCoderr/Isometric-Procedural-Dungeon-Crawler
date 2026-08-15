@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a69a2367042a346a37fe1c9033ff67, type: 3}
+  m_Name: Enemy Pistol Basic
+  m_EditorClassIdentifier: 
+  gunSprite: {fileID: 21300000, guid: 0ee8aec89a3a93843889d4bfca2826bf, type: 3}
+  obtainedByPlayer: 0
+  startingWeapon: 0
+  damage: 1
+  bulletSpeed: 5
+  shootingDelay: 3
+  shootingDelayUnHeld: 0
+  bulletNum: 1
+  reload: 1
+  reloadBulletNum: 5
+  reloadWaitTime: 1
+  burst: 0
+  burstNum: 0
+  bulletSpreadFactor: 0
+  bulletSpreadAngle: 0
+  shakeIntensity: 0.1
+  randomShakeIntensity: 0.05
+  handlePosition: {x: 1, y: 1}
+  firingPosition: {x: 1.2, y: 1.1}
+  bulletSprite: {fileID: 21300000, guid: 4c801374eaf08a045802a930345ba457, type: 3}
+  spriteScale: 0.75
+  fadeOutTime: 4

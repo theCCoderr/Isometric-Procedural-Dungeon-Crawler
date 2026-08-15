@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d9f391e46c65045ad4d1b05a6a307a, type: 3}
+  m_Name: assultRifleGirl
+  m_EditorClassIdentifier: 
+  enemyName: mgGirl
+  enemySprites:
+  - {fileID: -3510722044742797960, guid: be61a04ada1278e4c95098b257c1ce4e, type: 3}
+  - {fileID: -6361233262324370427, guid: be61a04ada1278e4c95098b257c1ce4e, type: 3}
+  - {fileID: 4143189838417362799, guid: be61a04ada1278e4c95098b257c1ce4e, type: 3}
+  - {fileID: -6977379909253029252, guid: be61a04ada1278e4c95098b257c1ce4e, type: 3}
+  health: 4
+  maxSpeed: 1
+  minSpeed: 1
+  farEnd: 6
+  nearEnd: 4
+  hasGun: 1
+  colliderSize: {x: 0.3130841, y: 0.8180943}
+  colliderOffset: {x: -0.03334737, y: -0.09095287}
+  gunSo: {fileID: 11400000, guid: ad592dfe23e48494cb122705e1bd36e1, type: 2}
