@@ -28,7 +28,7 @@ The Object Pool preloading bullet entities on awake to save memory during gamepl
 
 ##  Code Structure
 
-If you want to check out the code, the `Assets/Scripts`. The main areas are:
+If you want to check out the code, it's in `Assets/Scripts/` and The main areas are:
 
 - `WorldGeneration/` - The math and algorithms for the procedural mapping.
     
